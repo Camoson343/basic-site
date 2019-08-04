@@ -1,0 +1,23 @@
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.projects-container {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+nav {
+  position: fixed;
+  background: rgba(0,0,0,0.2);
+  padding: 0px 20px;
+}
